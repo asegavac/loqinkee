@@ -1,0 +1,8 @@
+version: "3"
+services:
+  loqinkee:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/code/
